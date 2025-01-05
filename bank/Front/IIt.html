@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Union Bank - Responsive UI</title>
+    <link rel="stylesheet" href="IIt.css"></link>
+</head>
+<body>
+    <nav>
+        <div class="logo">Bank</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#savings">Savings</a></li>
+            <li><a href="#login" onclick="showLoginPage()">Login</a></li>
+            <li><a href="#signup" onclick="showSignupPage()">Signup</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Smart Banking</h1>
+        <p>Experience the new era of digital banking with our app.</p>
+        <!-- <a href="#" class="btn">Download Now</a> -->
+    </section>
+
+    <section id="services" class="cards">
+        <div class="card">
+            <h3>Savings Accounts</h3>
+            <p>Secure your future with high-interest savings accounts.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>Loans</h3>
+            <p>Flexible loan options to meet your financial needs.</p>
+            <a href="#">Apply Now</a>
+        </div>
+        <div class="card">
+            <h3>Credit Cards</h3>
+            <p>Explore our wide range of credit card options.</p>
+            <a href="#">Get Yours Today</a>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis commodi unde, odio voluptatem quidem hic exercitationem enim nemo saepe, qui beatae libero velit optio, atque maxime nihil repudiandae deserunt?</p>
+        </div>
+    </section>
+
+    <section id="login" class="form-section">
+        <div class="login-page" id="loginPage">
+            <h2>Login</h2>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="signup-page" class="form-section">
+        <div class="signup-page" id="signupPage">
+            <h2>Sign Up</h2>
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Create a password">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </section>
+  
+
+    <footer>
+        <p>© 2025 Bank of India. All rights reserved.</p>
+    </footer>
+
+    <div class="chatbot">
+        <button id="chatbot-btn">💬</button>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">Chatbot</div>
+            <div class="chatbot-body" id="chatbot-body">
+                <p>Welcome! How can I assist you today?</p>
+            </div>
+            <div class="chatbot-footer">
+                <input type="text" id="chatbot-input" placeholder="Type a message...">
+                <button id="chatbot-send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="IIt.html">
+        
+    </script>
+</body>
+</html>
